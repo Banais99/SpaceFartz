@@ -1,3 +1,5 @@
+import random
+
 SCREEN_WIDTH = 1280
 SCREEN_HEIGHT = 720
 
@@ -11,3 +13,11 @@ PLAYER_TURN_SPEED = 300
 PLAYER_SPEED = 200
 PLAYER_SHOOT_SPEED = 500
 SHOT_RADIUS = 5
+PLAYER_SHOOT_COOLDOWN = 0.3
+
+
+#colors 
+rand_int= (random.randint(0, 255),  # R
+         random.randint(0, 255),  # G
+         random.randint(0, 255))  # B
+ 
